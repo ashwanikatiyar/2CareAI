@@ -1,0 +1,16 @@
+{
+    "name": "digital-health-wallet-root",
+    "version": "1.0.0",
+    "description": "Root package to manage client and server",
+    "scripts": {
+        "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\"",
+        "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+        "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+        "build": "npm run build --prefix client"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
