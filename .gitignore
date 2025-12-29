@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+
+# Brain/Artifacts (if you want to exclude local agent artifacts)
+.gemini/
